@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Size should guess popup size 1`] = `
+Object {
+  "height": 384,
+  "width": 512,
+}
+`;
+
+exports[`Size should guess popup size 2`] = `
+Object {
+  "height": 200,
+  "width": 200,
+}
+`;
+
+exports[`Size should guess popup size 3`] = `
+Object {
+  "height": 384,
+  "width": 512,
+}
+`;
