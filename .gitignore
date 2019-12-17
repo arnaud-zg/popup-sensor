@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# TSDX
+.DS_Store
+.rts2_cache_cjs
+.rts2_cache_esm
+.rts2_cache_umd
