@@ -21,11 +21,14 @@ class Popup {
   }
 
   exit = () => {
-    if (this.animationFrameId) {
-      window.cancelAnimationFrame(this.animationFrameId)
-    }
     if (this.onClose) {
       this.onClose()
+    }
+    if (this.currentWindow && !this.currentWindow.closed) {
+      this.currentWindow.close()
+    }
+    if (this.animationFrameId) {
+      window.cancelAnimationFrame(this.animationFrameId)
     }
   }
 
