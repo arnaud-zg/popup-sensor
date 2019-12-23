@@ -1,12 +1,24 @@
-import { guessPopupSize, getCenteredBoxPosition } from '../utils/size'
+import { TOnClose, TOnLocationChange } from '../../types'
+import { EPopupAction } from '../constant'
+import { getCenteredBoxPosition, guessPopupSize } from '../utils/size'
 
 class Popup {
-  animationFrameId: number | null = null
-  currentWindow: Window | null = null
-  onClose: Function | undefined
+  animationFrameId: number | null
+  currentWindow: Window | null
+  onClose: TOnClose | undefined
+  onLocationChange: TOnLocationChange | undefined
 
-  constructor({ onClose }: { onClose?: Function }) {
+  constructor({
+    onClose,
+    onLocationChange,
+  }: {
+    onClose?: TOnClose
+    onLocationChange?: TOnLocationChange
+  }) {
+    this.animationFrameId = null
+    this.currentWindow = null
     this.onClose = onClose
+    this.onLocationChange = onLocationChange
   }
 
   exit = () => {
@@ -19,15 +31,25 @@ class Popup {
   }
 
   check = () => {
-    try {
-      if (this.currentWindow && this.currentWindow.closed) {
-        this.exit()
-      }
-    } catch (e) {
-      console.error(e)
-    } finally {
-      if (this.currentWindow && !this.currentWindow.closed) {
-        this.animationFrameId = window.requestAnimationFrame(() => this.check())
+    if (this.currentWindow) {
+      try {
+        const shouldExit =
+          (this.onLocationChange &&
+            this.onLocationChange(this.currentWindow.location) ===
+              EPopupAction.CLOSE) ||
+          this.currentWindow.closed
+
+        if (shouldExit) {
+          this.exit()
+        }
+      } catch (e) {
+        console.error(e)
+      } finally {
+        if (!this.currentWindow.closed) {
+          this.animationFrameId = window.requestAnimationFrame(() =>
+            this.check()
+          )
+        }
       }
     }
   }

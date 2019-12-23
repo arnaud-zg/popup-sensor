@@ -9,6 +9,7 @@ describe('Popup', () => {
         "currentWindow": null,
         "exit": [Function],
         "onClose": undefined,
+        "onLocationChange": undefined,
         "open": [Function],
       }
     `)
