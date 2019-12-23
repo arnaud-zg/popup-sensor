@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.3](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.2...v0.6.3) (2019-12-23)
+
+
+### 🐛 Bug Fixes
+
+* close properly popup window ([#12](https://github.com/arnaud-zg/popup-sensor/issues/12)) ([3d81f61](https://github.com/arnaud-zg/popup-sensor/commit/3d81f6144dad08f6ad487d265537b30af2f43291))
+
 ### [0.6.2](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.1...v0.6.2) (2019-12-23)
 
 
