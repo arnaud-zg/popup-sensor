@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/arnaud-zg/popup-sensor/compare/v0.3.1...v0.4.0) (2019-12-23)
+
+
+### 🖋 Features
+
+* initiate popup class with required object parameter ([#9](https://github.com/arnaud-zg/popup-sensor/issues/9)) ([b894697](https://github.com/arnaud-zg/popup-sensor/commit/b894697c00bf8a95cea4013fa8cd11bd88173afa))
+
 ### [0.3.1](https://github.com/arnaud-zg/popup-sensor/compare/v0.3.0...v0.3.1) (2019-12-20)
 
 
