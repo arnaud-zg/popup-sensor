@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.1](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.0...v0.6.1) (2019-12-23)
+
+
+### 🐛 Bug Fixes
+
+* move enum to types folder ([#11](https://github.com/arnaud-zg/popup-sensor/issues/11)) ([4f8265e](https://github.com/arnaud-zg/popup-sensor/commit/4f8265efb4e83befe3c7551f0b00de911cb5ebef))
+
 ## [0.6.0](https://github.com/arnaud-zg/popup-sensor/compare/v0.5.0...v0.6.0) (2019-12-23)
 
 
