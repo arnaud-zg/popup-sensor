@@ -3,28 +3,31 @@ import { guessPopupSize, getCenteredBoxPosition } from '../utils/size'
 class Popup {
   animationFrameId: number | null = null
   currentWindow: Window | null = null
+  onClose: Function | undefined
 
-  exit = ({ onClose }: { onClose?: Function }) => {
+  constructor({ onClose }: { onClose?: Function }) {
+    this.onClose = onClose
+  }
+
+  exit = () => {
     if (this.animationFrameId) {
       window.cancelAnimationFrame(this.animationFrameId)
     }
-    if (onClose) {
-      onClose()
+    if (this.onClose) {
+      this.onClose()
     }
   }
 
-  check = ({ onClose }: { onClose?: Function }) => {
+  check = () => {
     try {
       if (this.currentWindow && this.currentWindow.closed) {
-        this.exit({ onClose })
+        this.exit()
       }
     } catch (e) {
       console.error(e)
     } finally {
       if (this.currentWindow && !this.currentWindow.closed) {
-        this.animationFrameId = window.requestAnimationFrame(() =>
-          this.check({ onClose })
-        )
+        this.animationFrameId = window.requestAnimationFrame(() => this.check())
       }
     }
   }
@@ -34,13 +37,11 @@ class Popup {
     title,
     width,
     height,
-    onClose,
   }: {
     url: string
     title: string
     width?: number
     height?: number
-    onClose?: Function
   }) => {
     const { width: popupWidth, height: popupHeight } = guessPopupSize({
       width,
@@ -61,9 +62,7 @@ class Popup {
     }
 
     if (window.requestAnimationFrame && this.currentWindow) {
-      this.animationFrameId = window.requestAnimationFrame(() =>
-        this.check({ onClose })
-      )
+      this.animationFrameId = window.requestAnimationFrame(() => this.check())
     }
   }
 }

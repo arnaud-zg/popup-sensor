@@ -2,7 +2,7 @@ import Popup from '../../src/module/popup'
 
 describe('Popup', () => {
   it('should call window.open', () => {
-    const popupInstance = new Popup()
+    const popupInstance = new Popup({})
     const url = 'https://www.google.com/'
     const title = 'Google'
 
