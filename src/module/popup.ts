@@ -1,5 +1,4 @@
-import { TOnClose, TOnLocationChange } from '../../types'
-import { EPopupAction } from '../constant'
+import { EPopupAction, TOnClose, TOnLocationChange } from '../../types'
 import { getCenteredBoxPosition, guessPopupSize } from '../utils/size'
 
 class Popup {

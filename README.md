@@ -82,7 +82,7 @@ import Popup from 'popup-sensor'
 import { EPopupAction } from 'popup-sensor/types'
 
 const onLocationChange = (location: Location) => {
-  const locationSearch = queryString.parse(popUpWindow.location.search)
+  const locationSearch = queryString.parse(location.search)
 
   return locationSearch.code ? EPopupAction.CLOSE : EPopupAction.NONE
 }
