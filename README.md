@@ -55,7 +55,7 @@ const onClick = () => {
 }
 ```
 
-### One-liner
+#### One-liner
 
 ```ts
 import Popup from 'popup-sensor'
@@ -87,6 +87,23 @@ const onClick = () => {
 }
 ```
 
+#### One-liner
+
+```ts
+import Popup from 'popup-sensor'
+
+const onPopupClose = () => {
+  console.log('popup close event')
+}
+
+const onClick = () => {
+  new Popup({ onClose: onPopupClose }).open({
+    title: 'Google',
+    url: 'https://www.google.com/',
+  })
+}
+```
+
 ### Track location and dispatch action
 
 ```ts
@@ -104,6 +121,27 @@ const onClick = () => {
   const popupInstance = new Popup({ onLocationChange })
 
   popupInstance.open({
+    title: 'Google',
+    url: 'https://www.google.com/',
+  })
+}
+```
+
+#### One-liner
+
+```ts
+import * as queryString from 'query-string'
+import Popup from 'popup-sensor'
+import { EPopupAction } from 'popup-sensor/types'
+
+const onLocationChange = (location: Location) => {
+  return queryString.parse(location.search).code
+    ? EPopupAction.CLOSE
+    : EPopupAction.NONE
+}
+
+const onClick = () => {
+  new Popup({ onLocationChange }).open({
     title: 'Google',
     url: 'https://www.google.com/',
   })
