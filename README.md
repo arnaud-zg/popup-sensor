@@ -49,8 +49,21 @@ const onClick = () => {
   const popupInstance = new Popup({})
 
   popupInstance.open({
-    url: 'https://www.google.com/',
     title: 'Google',
+    url: 'https://www.google.com/',
+  })
+}
+```
+
+### One-liner
+
+```ts
+import Popup from 'popup-sensor'
+
+const onClick = () => {
+  new Popup({}).open({
+    title: 'Google',
+    url: 'https://www.google.com/',
   })
 }
 ```
@@ -68,8 +81,8 @@ const onClick = () => {
   const popupInstance = new Popup({ onClose: onPopupClose })
 
   popupInstance.open({
-    url: 'https://www.google.com/',
     title: 'Google',
+    url: 'https://www.google.com/',
   })
 }
 ```
@@ -91,8 +104,8 @@ const onClick = () => {
   const popupInstance = new Popup({ onLocationChange })
 
   popupInstance.open({
-    url: 'https://www.google.com/',
     title: 'Google',
+    url: 'https://www.google.com/',
   })
 }
 ```
