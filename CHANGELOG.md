@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.7](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.6...v0.6.7) (2020-01-12)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/plugin-proposal-nullish-coalescing-operator to v7.8.0 ([#25](https://github.com/arnaud-zg/popup-sensor/issues/25)) ([f5debb9](https://github.com/arnaud-zg/popup-sensor/commit/f5debb9f870d73cb3e8355f32dd4c229f815644e))
+* **deps:** update dependency husky to v4.0.4 ([#22](https://github.com/arnaud-zg/popup-sensor/issues/22)) ([6a28b10](https://github.com/arnaud-zg/popup-sensor/commit/6a28b102cef7e2c1a775f0c340ab0e807af175c1))
+* **deps:** update dependency husky to v4.0.6 ([#24](https://github.com/arnaud-zg/popup-sensor/issues/24)) ([502d709](https://github.com/arnaud-zg/popup-sensor/commit/502d709ab0ee8264a73e9fd32dd03980b55f1d24))
+* **deps:** update dependency husky to v4.0.7 ([#26](https://github.com/arnaud-zg/popup-sensor/issues/26)) ([8e96992](https://github.com/arnaud-zg/popup-sensor/commit/8e96992095049cc2dc4df8a086043588d15904d5))
+* **deps:** update node.js to v10.18.1 ([#23](https://github.com/arnaud-zg/popup-sensor/issues/23)) ([a974c9e](https://github.com/arnaud-zg/popup-sensor/commit/a974c9e214410a9b098f9f04e549e6e657084750))
+
 ### [0.6.6](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.5...v0.6.6) (2020-01-09)
 
 
