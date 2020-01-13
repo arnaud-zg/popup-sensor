@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.8](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.7...v0.6.8) (2020-01-13)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/plugin-proposal-nullish-coalescing-operator to v7.8.3 ([#28](https://github.com/arnaud-zg/popup-sensor/issues/28)) ([6407cc9](https://github.com/arnaud-zg/popup-sensor/commit/6407cc9d995fee23cb993f9aa43e7d8a56e92226))
+* **deps:** update dependency tsdx to v0.12.3 ([#27](https://github.com/arnaud-zg/popup-sensor/issues/27)) ([dab79b2](https://github.com/arnaud-zg/popup-sensor/commit/dab79b29324762d11c213a02f2969fd6f1eb1904))
+
 ### [0.6.7](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.6...v0.6.7) (2020-01-12)
 
 
