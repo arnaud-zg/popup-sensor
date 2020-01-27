@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.10](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.9...v0.6.10) (2020-01-27)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.9.1 ([#39](https://github.com/arnaud-zg/popup-sensor/issues/39)) ([b57edfc](https://github.com/arnaud-zg/popup-sensor/commit/b57edfc901ca8f11b64099c8e22bccc12d6079d1))
+* **deps:** update dependency @types/jest to v25 ([#42](https://github.com/arnaud-zg/popup-sensor/issues/42)) ([c7c4337](https://github.com/arnaud-zg/popup-sensor/commit/c7c4337d5d85f0a3b50d60628ae48ef7093daf91))
+* **deps:** update dependency codecov to v3.6.2 ([#40](https://github.com/arnaud-zg/popup-sensor/issues/40)) ([1c67b87](https://github.com/arnaud-zg/popup-sensor/commit/1c67b87e80711fe7d57870fc52c0c31041706783))
+* **deps:** update dependency husky to v4.1.0 ([#36](https://github.com/arnaud-zg/popup-sensor/issues/36)) ([0d75b9f](https://github.com/arnaud-zg/popup-sensor/commit/0d75b9fe2e95039a58128f8fa4db86686ff36d00))
+* **deps:** update dependency husky to v4.2.0 ([#38](https://github.com/arnaud-zg/popup-sensor/issues/38)) ([3f1bbc5](https://github.com/arnaud-zg/popup-sensor/commit/3f1bbc5196a2c54d0898218ba56af6492d106c17))
+* **deps:** update dependency husky to v4.2.1 ([#41](https://github.com/arnaud-zg/popup-sensor/issues/41)) ([b45dc51](https://github.com/arnaud-zg/popup-sensor/commit/b45dc519d1271d363410933aab438679eebe7cb8))
+* **deps:** update dependency standard-version to v7.1.0 ([#37](https://github.com/arnaud-zg/popup-sensor/issues/37)) ([75f3397](https://github.com/arnaud-zg/popup-sensor/commit/75f339750513200984f6477981d2dfe843958be4))
+
 ### [0.6.9](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.8...v0.6.9) (2020-01-18)
 
 
