@@ -2,7 +2,7 @@ import {
   getWindowSize,
   getCenteredBoxPosition,
   guessPopupSize,
-} from '../../src/utils/size'
+} from '../../src/utils'
 
 describe('Size', () => {
   it('should get current window size', () => {

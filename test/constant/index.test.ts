@@ -1,4 +1,4 @@
-import { EPopupAction } from '../../types'
+import { EPopupAction } from '../../src/constant'
 
 describe('EPopupAction', () => {
   it('should make a snapshot', () => {
