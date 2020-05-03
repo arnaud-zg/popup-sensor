@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.16](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.15...v0.6.16) (2020-05-03)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency husky to v4.2.5 ([#61](https://github.com/arnaud-zg/popup-sensor/issues/61)) ([ddbe2cb](https://github.com/arnaud-zg/popup-sensor/commit/ddbe2cb730601a880d74e51a0b4111935b2f74e6))
+* **deps:** update node.js to v10.20.1 ([#60](https://github.com/arnaud-zg/popup-sensor/issues/60)) ([61b4c95](https://github.com/arnaud-zg/popup-sensor/commit/61b4c95bd3983b2a20dd2a037d1231f4f553342f))
+
 ### [0.6.15](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.14...v0.6.15) (2020-04-07)
 
 
