@@ -1,0 +1,1 @@
+type TOnClose = Function

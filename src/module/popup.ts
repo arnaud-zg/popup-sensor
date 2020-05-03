@@ -1,5 +1,7 @@
-import { EPopupAction, TOnClose, TOnLocationChange } from '../../types'
-import { getCenteredBoxPosition, guessPopupSize } from '../utils/size'
+import { EPopupAction } from '../constant'
+import { getCenteredBoxPosition, guessPopupSize } from '../utils'
+
+type TOnLocationChange = (location: Location) => EPopupAction
 
 class Popup {
   animationFrameId: number | null
