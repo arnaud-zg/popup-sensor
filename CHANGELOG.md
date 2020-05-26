@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.20](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.19...v0.6.20) (2020-05-26)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v25.2.3 ([#71](https://github.com/arnaud-zg/popup-sensor/issues/71)) ([36cee8e](https://github.com/arnaud-zg/popup-sensor/commit/36cee8e696d51ff73213a80fbed0bf70f0a9a0b9))
+* **deps:** update dependency codecov to v3.7.0 ([#70](https://github.com/arnaud-zg/popup-sensor/issues/70)) ([cfd53a4](https://github.com/arnaud-zg/popup-sensor/commit/cfd53a48a3f535a46aefc5a0790c7827defb0495))
+* **deps:** update dependency typescript to v3.9.3 ([#72](https://github.com/arnaud-zg/popup-sensor/issues/72)) ([bb86136](https://github.com/arnaud-zg/popup-sensor/commit/bb86136c894e6fa33cd8fb2d1adfceb954aaccfd))
+
 ### [0.6.19](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.18...v0.6.19) (2020-05-16)
 
 
