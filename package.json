@@ -33,7 +33,7 @@
   "peerDependencies": {},
   "devDependencies": {
     "@babel/plugin-proposal-nullish-coalescing-operator": "7.10.1",
-    "@types/jest": "26.0.2",
+    "@types/jest": "26.0.3",
     "codecov": "3.7.0",
     "husky": "4.2.5",
     "standard-version": "8.0.0",
