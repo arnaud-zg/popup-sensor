@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.22](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.21...v0.6.22) (2020-07-06)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/plugin-proposal-nullish-coalescing-operator to v7.10.4 ([#79](https://github.com/arnaud-zg/popup-sensor/issues/79)) ([6ded0cd](https://github.com/arnaud-zg/popup-sensor/commit/6ded0cd3a58cbb41a0ab8311af085317329b9d1d))
+* **deps:** update dependency @types/jest to v26.0.2 ([#77](https://github.com/arnaud-zg/popup-sensor/issues/77)) ([24ee122](https://github.com/arnaud-zg/popup-sensor/commit/24ee12296f15cf4ef8977186da2aaa4db6964fdf))
+* **deps:** update dependency @types/jest to v26.0.3 ([#78](https://github.com/arnaud-zg/popup-sensor/issues/78)) ([77a9ede](https://github.com/arnaud-zg/popup-sensor/commit/77a9ede9db0374766e5dc1e4c0ffa018969a2416))
+* **deps:** update dependency @types/jest to v26.0.4 ([#81](https://github.com/arnaud-zg/popup-sensor/issues/81)) ([bb078cc](https://github.com/arnaud-zg/popup-sensor/commit/bb078ccf84d4c2149aee99b6f53118f873a8e70b))
+* **deps:** update dependency typescript to v3.9.6 ([#80](https://github.com/arnaud-zg/popup-sensor/issues/80)) ([559a4f2](https://github.com/arnaud-zg/popup-sensor/commit/559a4f2b9532d37580fd18e98555e52e637cc9e7))
+
 ### [0.6.21](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.20...v0.6.21) (2020-06-11)
 
 
