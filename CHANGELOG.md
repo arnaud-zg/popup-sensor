@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.23](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.22...v0.6.23) (2020-07-06)
+
+
+### 🐛 Bug Fixes
+
+* remove plugin for nullish-coalescing-operator ([cceb865](https://github.com/arnaud-zg/popup-sensor/commit/cceb865be19c6e67ade83bed6c2527a8776a166e))
+
 ### [0.6.22](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.21...v0.6.22) (2020-07-06)
 
 
