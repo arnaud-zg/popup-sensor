@@ -1,6 +1,6 @@
 {
   "name": "popup-sensor",
-  "version": "0.6.23",
+  "version": "0.6.24",
   "description": "Popup window sensor written in typescript",
   "main": "dist/index.js",
   "module": "dist/popup-sensor.esm.js",
