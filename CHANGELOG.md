@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.25](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.24...v0.6.25) (2020-08-15)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v26.0.10 ([#95](https://github.com/arnaud-zg/popup-sensor/issues/95)) ([0727030](https://github.com/arnaud-zg/popup-sensor/commit/07270301f0e33501a19aec76b9d781b5052155db))
+* **deps:** update dependency standard-version to v9 ([#96](https://github.com/arnaud-zg/popup-sensor/issues/96)) ([f4f47d6](https://github.com/arnaud-zg/popup-sensor/commit/f4f47d6142330d53b0e2626142fb477eaacc813d))
+
 ### [0.6.24](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.23...v0.6.24) (2020-08-13)
 
 
