@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.26](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.25...v0.6.26) (2020-08-20)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency typescript to v4 ([#97](https://github.com/arnaud-zg/popup-sensor/issues/97)) ([82b2d8a](https://github.com/arnaud-zg/popup-sensor/commit/82b2d8aaa58519e9ee5d23db559d5878b3bf9b43))
+
 ### [0.6.25](https://github.com/arnaud-zg/popup-sensor/compare/v0.6.24...v0.6.25) (2020-08-15)
 
 
