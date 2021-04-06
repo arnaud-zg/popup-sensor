@@ -28,7 +28,8 @@
     "start": "tsdx watch",
     "test:coverage:report": "yarn run test:coverage && codecov -f coverage/*.json",
     "test:coverage": "tsdx test --coverage",
-    "test": "tsdx test"
+    "test": "tsdx test",
+    "prepare": "husky install"
   },
   "peerDependencies": {},
   "devDependencies": {
