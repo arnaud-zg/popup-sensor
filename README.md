@@ -1,5 +1,9 @@
 <h1 align="center">Welcome to popup-sensor 👋</h1>
 
+[![codecov](https://codecov.io/gh/arnaud-zg/popup-sensor/branch/master/graph/badge.svg)](https://codecov.io/gh/arnaud-zg/popup-sensor)
+[![Node.js CI](https://github.com/arnaud-zg/popup-sensor/actions/workflows/ci.yml/badge.svg)](https://github.com/arnaud-zg/popup-sensor/actions/workflows/ci.yml)
+[![release-please](https://github.com/arnaud-zg/popup-sensor/actions/workflows/release-please.yml/badge.svg)](https://github.com/arnaud-zg/popup-sensor/actions/workflows/release-please.yml)
+
 <p>Popup window sensor written in typescript</p>
 
 <p>
